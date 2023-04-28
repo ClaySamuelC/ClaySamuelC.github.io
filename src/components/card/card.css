@@ -1,5 +1,22 @@
 .Card {
-  border: 2px white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-style: solid;
+  border-width: 5px;
   border-radius: 10px;
+  padding: 25px;
   background-color: grey;
+  height: 180px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.content {
+  flex-grow: 3;
+  justify-self: center;
+  align-self: center;
 }

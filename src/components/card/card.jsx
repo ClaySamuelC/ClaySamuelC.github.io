@@ -1,9 +1,10 @@
 import './card.css';
 
-function Card({link, message}) {
+function Card({link, logo, message}) {
   return (
     <div className="Card">
-      <a href={link}>{message}</a>
+      <img className="logo" src={logo} alt=""/>
+      <a className="content" href={link}>{message}</a>
     </div>
   )
 }
