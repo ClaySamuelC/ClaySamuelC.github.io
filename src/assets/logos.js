@@ -4,6 +4,7 @@ import linkedin from './linkedin.png';
 import email from './email.png';
 import phone from './phone.png';
 import github from './github.png';
+import contact from './contact.png';
 
 const logos = {
   webdev: webdev,
@@ -11,7 +12,8 @@ const logos = {
   email: email,
   linkedin: linkedin,
   phone: phone,
-  github: github
+  github: github,
+  contact: contact
 };
 
 export default logos;

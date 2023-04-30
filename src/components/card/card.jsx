@@ -1,12 +1,17 @@
 import './card.css';
 
-function Card({link, logo, message}) {
+const Card = (props) => {
+  const {logo, heading} = props;
+  
   return (
     <div className="Card">
-      <img className="logo" src={logo} alt=""/>
-      <a className="content" href={link}>{message}</a>
+      <div className="header">
+        <img className="logo" src={props.logo} alt=""/>
+        <div className="message">{props.heading}</div>
+      </div>
+      {props.children}
     </div>
-  )
-}
+  );
+};
 
 export default Card;

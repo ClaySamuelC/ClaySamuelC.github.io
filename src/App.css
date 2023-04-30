@@ -23,6 +23,13 @@
   gap: 2rem;
 }
 
+.Contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 .Links {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
